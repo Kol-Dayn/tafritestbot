@@ -899,3 +899,5 @@ async def change_stats():
   print('Prefix - Reload!')
 
 token = os.environ.get('BOT_TOKEN')
+
+bot.run(str(token))
